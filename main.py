@@ -6,6 +6,8 @@ from Evaluation import Evaluation
 
 
 def backtest():
+    # Main loop of backtesting
+
     DIR = '/Data/fx10-20 1H.pkl'
     EMA_PERIODS = 24
     EMA_TP = 50
